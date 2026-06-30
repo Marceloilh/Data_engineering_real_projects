@@ -69,7 +69,7 @@ A confiabilidade dos dados é assegurada através de testes que validam tanto a 
 O teste abaixo verifica se alguma venda foi realizada com valor 5% abaixo do preço sugerido do veículo.
 
 ```sql
--- tests/assert_valor_venda_within_range.sql
+-- tests/test.sql
 SELECT
     f.venda_id,
     f.valor_venda,
